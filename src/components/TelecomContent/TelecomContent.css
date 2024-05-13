@@ -1,0 +1,31 @@
+.AboutContent .top-img img {
+    width: 220px;
+    height: 220px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.AboutContent .bg {
+    background-color: #00a0e3;
+    height: 100px;
+}
+
+.AboutContent .items .nb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00a0e3;
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+
+.AboutContent .items .text {
+    margin: 10px 0px 20px;
+    font-size: 1.4rem;
+    color: #444;
+}

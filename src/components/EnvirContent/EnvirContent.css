@@ -1,0 +1,16 @@
+.EnvirContent .content .border {
+    padding: 50px;
+    text-align: left;
+    height: 400px;
+}
+
+.EnvirContent .content .border h4 {
+    color: #00a0e3;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .EnvirContent .content .border {
+        padding: 25px;
+    }
+}

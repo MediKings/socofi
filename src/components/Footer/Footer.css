@@ -1,0 +1,26 @@
+footer {
+    background-color: #00a0e3;
+    padding: 20px 0px;
+}
+
+footer .logo {
+    width: 200px !important;
+}
+
+footer .text {
+    width: 500px !important;
+}
+
+footer a {
+    color: #222;
+    text-decoration: none;
+    background-color: #aaa;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 576px) {
+    footer .text {
+        width: 100% !important;
+        height: auto;
+    }
+}

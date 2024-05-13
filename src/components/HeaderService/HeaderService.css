@@ -1,0 +1,13 @@
+.HeaderService .bg {
+    background-color: #00a0e3;
+    height: 50px;
+}
+
+.HeaderService p {
+    line-height: 20px;
+}
+
+.HeaderService p a {
+    color: inherit;
+    text-decoration: none;
+}

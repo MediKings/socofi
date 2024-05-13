@@ -1,0 +1,51 @@
+.area {
+    background-color: #00a0e3;
+    padding: 50px 0px;
+}
+
+.area .item {
+    background-color: #fff;
+    padding: 20px;
+    height: 330px;
+    margin: 15px;
+}
+
+.area .item h5 {
+    color: #00a0e3;
+}
+
+.area .item img {
+    margin: 30px;
+}
+
+.area .item a {
+    color: #222;
+    text-decoration: none;
+    background-color: #aaa;
+    padding: 5px 10px;
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    .area .item {
+        height: 370px;
+    }
+
+    .area .item img {
+        margin: 0px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .area .item {
+        height: auto;
+    }
+}
+
+.partners h2 {
+    font-size: 3rem;
+    color: #00a0e3;
+}
+
+.partners img {
+    margin: 10px;
+}

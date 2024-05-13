@@ -1,0 +1,25 @@
+.TransportContent .item {
+    height: 100%;
+    border: 1px solid #aaa;
+    padding: 50px 40px 25px;
+}
+
+.TransportContent .box .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00a0e3;
+    margin-right: 10px;
+}
+
+.TransportContent .box h5 {
+    color: #00a0e3;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.TransportContent .box td {
+    font-size: 0.8rem;
+    line-height: 13px;
+    padding-right: 30px;
+}

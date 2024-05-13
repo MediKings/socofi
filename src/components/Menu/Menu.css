@@ -1,0 +1,48 @@
+.Menu {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 75%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+.Menu.show {
+    right: 0;
+    transition: all 200ms;
+}
+
+.Menu.hide {
+    right: -100%;
+    transition: all 200ms;
+}
+
+.Menu .nav a {
+    color: inherit;
+}
+
+.Menu .nav a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.Menu .nav a.active {
+    background-color: #00a0e3;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.Menu .sub-menu .sub-menu-items {
+    display: none;
+}
+
+.Menu .sub-menu:hover .sub-menu-items {
+    display: flex;
+    position: absolute;
+    width: 200px;
+    margin-left: 18px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #ccc;
+    border: 1px solid;
+    z-index: 9;
+}
